@@ -1,7 +1,12 @@
 import type { NextPage } from 'next';
 import 'normalize.css';
+import { useActions, useTypedSelector } from '../hooks';
 
 const Home: NextPage = () => {
+  const { redux } = useTypedSelector((state) => state.ui);
+  const { openModal, closeModal } = useActions();
+  console.log(redux);
+
   return (
     <div>
       <div

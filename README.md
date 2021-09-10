@@ -15,11 +15,4 @@
 - Import in Index.tsx normalize.css для CSS resets.
 - @svgr/webpack для использования svg как components
 - Определение Head в \_app.tsx и create \_document.tsx для определения языка
-
-> При использовании в будущем(не установлено)
-
-- Redux, Redux-thunk, next-redux-wrapper (in process)
-- для форм будет использована react-hook-form
-- для анимации - framer motion
-- Firebase
-
+- Redux, Redux-thunk, next-redux-wrapper, Redux DevTools
